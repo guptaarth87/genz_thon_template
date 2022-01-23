@@ -1,0 +1,79 @@
+*{
+  /* background-color:#121212 !important; */
+  /* color:white; */
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.img_overview{
+  position:relative;
+  
+}
+
+.head{
+   position:relative;
+   top:40px;
+}
+
+.domains{
+  position:relative;
+  top:10px;
+  font-size: 20px;
+}
+
+
+.animated{
+    animation:up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform : translateY(10px);
+    }
+    100% {
+      transform :translateY(-10px);
+    }
+  }
+  @keyframes up-down {
+    0% {
+      transform : translateY(10px);
+    }
+    100% {
+      transform :translateY(-10px);
+    }
+  }
+
+.roadmap{
+  position:relative;
+}
+
+.rewards{
+  position: relative;
+  
+}
+.reward_section{
+     position:relative;
+     top:60px;
+}
+.card{
+  position:relative;
+  margin-top:10px;
+}
+
+.important_dates{
+  position:relative;
+  top:100px;
+}
+  /* media query */
+
+@media (max-width:995px){
+  .img_overview{
+    top:30px;
+  }
+  .roadmap{
+   top:30px;
+  }
+}
